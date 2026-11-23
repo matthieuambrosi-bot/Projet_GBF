@@ -35,6 +35,6 @@ Communication : gbfSetOutput() dépose les paramètres dans une file d’une place. 
 
 resultats : 
 
-![capture d'ecran oscillo](SCR10.png)
+![capture d'ecran oscillo 1](SCR10.PNG)
 
-![capture d'ecran oscillo](SCR11.png)
+![capture d'ecran oscillo 2](SCR11.PNG)
