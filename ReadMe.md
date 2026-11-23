@@ -1,6 +1,6 @@
 Maquette IHM : 
 
-![Maquette IHM](maquette_idm.png)
+![Maquette IHM](maquette_ihm.png)
 
 Diagramme d'état : 
 
@@ -32,3 +32,9 @@ Nombre d’échantillons : n = FS_MAX / freq, limité entre 100 et 1000. À 1,5 kHz o
 Remplissage : forme() donne la forme normalisée (0 à 1), puis v = offset + amplitude × forme, écrêté entre 0 et 3,3 V et converti en code 0 à 255. L’amplitude est donc crête à crête et l’offset est le niveau bas.
 Timer : à 40 MHz, la période est 40 000 000 / (n × f) ticks. Le code gère les deux versions d’Arduino-ESP32 (2.x et 3.x).
 Communication : gbfSetOutput() dépose les paramètres dans une file d’une place. gbfTask les reçoit, arrête le timer, remplit le tableau, puis relance le timer (ou met la sortie à 0 V si OFF).
+
+resultats : 
+
+![capture d'ecran oscillo](SCR10.png)
+
+![capture d'ecran oscillo](SCR11.png)
